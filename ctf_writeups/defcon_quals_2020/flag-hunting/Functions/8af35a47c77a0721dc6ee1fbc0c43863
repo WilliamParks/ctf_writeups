@@ -1,0 +1,42 @@
+Start addr 8af35a47c77a0721dc6ee1fbc0c43863
+Called by set(['2a965877274f6bf2915681c3692cdee5'])
+Calls to set([])
+
+Addr 8af35a47c77a0721dc6ee1fbc0c43863
+Calls to  31d7845987f1fa45e4ac4748ea1f0451 * 3, 
+8af35a47c77a0721dc6ee1fbc0c43863 movd xmm0, esi
+a52efe8461a38899322bb29608abce58 mov rax, rdi
+203030e0b33948639a10cdd558f03844 punpcklbw xmm0, xmm0
+1eddd6fd1c9a66670935b5e743fce4e0 punpcklwd xmm0, xmm0
+00ac09b938f47ac2674471b8e0029795 pshufd xmm0, xmm0, 0x0
+4bdeb60b3ed17efd67daea92261ec3e5 cmp rdx, 0x10
+e7a86c7417d6218123174ebe7aa4a386 jb 0x7ffff7df4ac8
+
+Addr 31d7845987f1fa45e4ac4748ea1f0451
+Calls to  caaf2d9df80d11725a22e348d0fcfcc9 * 3, 
+31d7845987f1fa45e4ac4748ea1f0451 movq rcx, xmm0
+dae1a991dc9259f84cba2ecf5d1974d4 cmp dl, 0x8
+b0fbaf51e8cf2bcbca4360a7052070b8 jae 0x7ffff7df4ae1
+
+Addr caaf2d9df80d11725a22e348d0fcfcc9
+Calls to  2bf641a0f0a83da6e4a7b23c36c704ef * 2,  17a8a7a0b4022d92d586d5fd22929e86 * 1, 
+caaf2d9df80d11725a22e348d0fcfcc9 cmp dl, 0x4
+71868e619e2eac633d144bac23afb360 jae 0x7ffff7df4aea
+
+Addr 2bf641a0f0a83da6e4a7b23c36c704ef
+Calls to 
+2bf641a0f0a83da6e4a7b23c36c704ef mov DWORD PTR [rdi+rdx*1-0x4], ecx
+7ca39616cbb76041e4427471a9b48a1f mov DWORD PTR [rdi], ecx
+e8db262bea36a9b728dc631adaef87c8 ret 
+
+Addr 17a8a7a0b4022d92d586d5fd22929e86
+Calls to  3a0e6bc421db6c867039c98b01523fb8 * 1, 
+17a8a7a0b4022d92d586d5fd22929e86 cmp dl, 0x1
+55810fcce3a13c6331b24329ded36d43 ja 0x7ffff7df4af1
+
+Addr 3a0e6bc421db6c867039c98b01523fb8
+Calls to 
+3a0e6bc421db6c867039c98b01523fb8 mov WORD PTR [rdi+rdx*1-0x2], cx
+68f5b92cac0ab67953299c18e8e9a9fd mov WORD PTR [rdi], cx
+227404c4df1e0e6a9b1f1e0a54d1f882 ret 
+

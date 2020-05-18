@@ -1,0 +1,134 @@
+Start addr bdfd4a02b9765834cd7de8cd6119e5e7
+Called by set(['e7ec0a7a7c3839cb2db0b22751f7fb6b'])
+Calls to set(['9185030af5071677a11119afd1554bd1'])
+
+Addr bdfd4a02b9765834cd7de8cd6119e5e7
+Calls to  4e74841d4814d4cf1cbc17069dcb73bf * 1, 
+bdfd4a02b9765834cd7de8cd6119e5e7 mov ecx, DWORD PTR [rdi]
+82a1fa81ae386e11fd3bbda5b0e3bf3d test cl, 0x8
+61045a7ead6978b6c95ca0f41f744166 jne 0x7ffff7a714f0
+
+Addr 4e74841d4814d4cf1cbc17069dcb73bf
+Calls to  03353233c4545c8d979e7db7291a79b7 * 1, 
+4e74841d4814d4cf1cbc17069dcb73bf test ch, 0x8
+85dad79d861407fe17b381d44785bec0 push r12
+4854cacf4a0c834c79aaef831a4a731f push rbp
+943499068a22b58d0918681514eabaee mov ebp, esi
+d0463fcbb064b943234bce47ff308c40 push rbx
+5d1229ef48cb99a670e928348053d7d9 mov rbx, rdi
+1bc2657aa8ff03a14077e9a38f0e9a70 mov rsi, QWORD PTR [rdi+0x20]
+de8bbc2bd5d69e1806bab0ec011ee370 je 0x7ffff7a71370
+
+Addr 03353233c4545c8d979e7db7291a79b7
+Calls to  39e1007445c84647958e78fc9c248dc4 * 1, 
+03353233c4545c8d979e7db7291a79b7 test rsi, rsi
+d8806d18a4b850fd3b48f071bdd8908d je 0x7ffff7a71490
+
+Addr 39e1007445c84647958e78fc9c248dc4
+Calls to  7922381227bbe317cb9bbf463a71fa00 * 1, 
+39e1007445c84647958e78fc9c248dc4 mov rdx, QWORD PTR [rdi+0x28]
+b8c6aab042a123d474c775a7078f1b53 cmp ebp, 0xffffffff
+62104958c16718d8b02aa607872a9768 je 0x7ffff7a713dc
+
+Addr 7922381227bbe317cb9bbf463a71fa00
+Calls to  05bee2921268bd380596f63fbf29e6c8 * 1, 
+7922381227bbe317cb9bbf463a71fa00 mov rdi, rbx
+1e1da3736b3c10e89d89da62bd004581 sub rdx, rsi
+af78fc9cea93df65cdb9c1b533697dc1 pop rbx
+433c9c6dc1c6ce77939ab39c86701f7b pop rbp
+eb1253572f2c73df778aeb4b08382631 pop r12
+51688ca83a8d85d360a9df0f01979898 jmp 0x7ffff7a70ea0
+
+Addr 05bee2921268bd380596f63fbf29e6c8
+Calls to  ec57412755c7f4816568443bf22e6526 * 1, 
+05bee2921268bd380596f63fbf29e6c8 xor eax, eax
+7a1483c74fabfab8132c538759e01a68 test rdx, rdx
+f71db3384b30f6638af40cbe0c2b95c6 jne 0x7ffff7a70eb0
+
+Addr ec57412755c7f4816568443bf22e6526
+Calls to  c80cf08a1caac1f8460c26704928d43f * 1, 
+ec57412755c7f4816568443bf22e6526 push r15
+afaa9eedd9bf1280d00a6130c3802b72 push r14
+ef427af685aebd100fda02e0347e9f22 lea r15, [rip+0x35a8a5]
+ebaa6af053c53f0a2657085ce2a442f5 push r13
+ace8982c6aeba3ae1e67fc1a2761d63e push r12
+1049fd8ef025e126ed366f42d584bc2e mov r13, rsi
+e0e44c1cc94fee703468a97a92364302 push rbp
+27a4f1b823eba2343056048cb16eb3b7 push rbx
+ec7a25e03937f9a3e450e646d062f748 lea rbp, [rip+0x35b5fd]
+c2e2424d587c066131c8449aa2a490b6 mov r12, rdx
+dd7656d60ca3edaa3f27222d50217159 mov rbx, rdi
+fce3b31de7859bc1a1b08d9713dcf041 sub rsp, 0x8
+7ae4673a81fffd702422fff9854bc072 mov r14, QWORD PTR [rdi+0xd8]
+9523bcea1419782dec566936d984320b sub rbp, r15
+9be67e4ed1433e84ce3c56c3b0afb914 mov rax, r14
+bf0a9476ff82ba8694624655c4b92254 sub rax, r15
+d8e2fbbf6dcb8249292d78d279feceea test DWORD PTR [rdi], 0x1000
+1a6d0a7cfa58212b0c52f85203b9d331 jne 0x7ffff7a70fb0
+
+Addr c80cf08a1caac1f8460c26704928d43f
+Calls to  b35b6dce2cefdaa4ae0219479b7f5ab2 * 1, 
+c80cf08a1caac1f8460c26704928d43f mov rdx, QWORD PTR [rdi+0x10]
+e6b54af9066ef8e82272be022ba53be8 mov rsi, QWORD PTR [rdi+0x20]
+5e93b01e3dec5e90106c7a9209ac04ec cmp rdx, rsi
+33bdb21299d70fd32ad73ce297e02078 je 0x7ffff7a70f3b
+
+Addr b35b6dce2cefdaa4ae0219479b7f5ab2
+Calls to  a54b7e2f49fddb8ae4a35b99be34a5fc * 1, 
+b35b6dce2cefdaa4ae0219479b7f5ab2 cmp rbp, rax
+84f4b87d5a06bd420abba6e057825b9e jbe 0x7ffff7a70ff0
+
+Addr a54b7e2f49fddb8ae4a35b99be34a5fc
+Calls to  939ba94b64fb551e21912a7f383ed5df * 1, 
+a54b7e2f49fddb8ae4a35b99be34a5fc mov rdx, r12
+49986603f2b3cad72491e20647686f59 mov rsi, r13
+af47b084af7a4754b6e9ca3a732b99ad mov rdi, rbx
+7991745197c15a203a729210949daca4 call QWORD PTR [r14+0x78] - at 9185030af5071677a11119afd1554bd1
+95ff92172c356eb67242fb4f306f9352 mov rbp, rax
+f9f4ac58540d9dc4997d3e63c13596ae movzx eax, WORD PTR [rbx+0x80]
+17bc1926136c972fef58fc16d4cad74e test rbp, rbp
+7275069653ab720180dbe1e6d530a244 je 0x7ffff7a70f65
+
+Addr 939ba94b64fb551e21912a7f383ed5df
+Calls to  29eeeae9621fd1944e67d31310b6e9a6 * 1, 
+939ba94b64fb551e21912a7f383ed5df test ax, ax
+8d287fcfaf4b2a1c6f63cd1b199146f4 jne 0x7ffff7a70fd0
+
+Addr 29eeeae9621fd1944e67d31310b6e9a6
+Calls to  ffa7b7c1e097294321f61fd4aa5b9c2f * 1, 
+29eeeae9621fd1944e67d31310b6e9a6 mov edx, DWORD PTR [rbx+0xc0]
+d1ba54bf62ae89185bdaa770fc5a6d1f mov rax, QWORD PTR [rbx+0x38]
+cd6691e9af275680b6cbc66e1da40b3b test edx, edx
+d475acde94d5683960f99e9b314eba9a mov QWORD PTR [rbx+0x18], rax
+a02c4bc12c02c14f8b1368c04e636194 mov QWORD PTR [rbx+0x8], rax
+58b06dac19c7086c54745d80c2a43d30 mov QWORD PTR [rbx+0x10], rax
+2fea2d1971659295726c31e75fe188a3 mov QWORD PTR [rbx+0x28], rax
+13aebe0318f79d524453484a8edc574a mov QWORD PTR [rbx+0x20], rax
+481f0e16a6c23f2534bf3f44d5e9f054 jle 0x7ffff7a70fc0
+
+Addr ffa7b7c1e097294321f61fd4aa5b9c2f
+Calls to  25a9c6e06ef12d1c5da9f109aeefa38b * 1, 
+ffa7b7c1e097294321f61fd4aa5b9c2f test DWORD PTR [rbx], 0x202
+8d0ec2bd7674580819397d1953a99b75 jne 0x7ffff7a70f8b
+
+Addr 25a9c6e06ef12d1c5da9f109aeefa38b
+Calls to  4e9127858fa4109e1046af496b9b3e2b * 1, 
+25a9c6e06ef12d1c5da9f109aeefa38b jmp 0x7ffff7a70f87
+
+Addr 4e9127858fa4109e1046af496b9b3e2b
+Calls to 
+4e9127858fa4109e1046af496b9b3e2b mov rax, QWORD PTR [rbx+0x40]
+95d4defd1643309fec3c1fc215e86dda mov QWORD PTR [rbx+0x30], rax
+0e7c731f90b4fadf5e8647f06f9c55d8 xor eax, eax
+5349114697f16b78769d6b2e7e0cdd65 cmp r12, rbp
+97e716c09b1b9c6ab9d4c1ceac2c2ec7 setne al
+b23c3d98fbffe3c5422ef05709de710e neg eax
+9ed27885e4b5e093d556dcad5c8a5b9d add rsp, 0x8
+efc23c1a4ca6c4c79c5c6cd149eed2eb pop rbx
+055de777aeed7f3a80864124f60552ba pop rbp
+ee6c092e3050ff85216c73086f41f22e pop r12
+0fe9eb59b2e9e0375e2dcd7c6c8bb175 pop r13
+0d0a11c59dc65c46e294e47766f6ce44 pop r14
+c17a560d0225dec36823d94a525ff528 pop r15
+8c2dcb6cd983114d10a777868d0b5708 ret 
+

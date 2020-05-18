@@ -1,0 +1,18 @@
+Start addr 38592c5700f5908188fa9d68cc056758
+Called by set([])
+Calls to set([])
+
+Addr 38592c5700f5908188fa9d68cc056758
+Calls to  6e177de8ac3e8da90e748e89466893cf * 1, 
+38592c5700f5908188fa9d68cc056758 mov edx, edi
+cf544e4aea0df2931559b5637b39c594 mov r9, QWORD PTR [rip+0x30608f]
+0dc0817f6cdd0d7544bc7545c2322a98 mov r8d, 0xe7
+856f98ba96867e26919f82789ec7b362 mov esi, 0x3c
+5b09b498ebf93cceda967f15c6993fcb jmp 0x7ffff7ac8dff
+
+Addr 6e177de8ac3e8da90e748e89466893cf
+Calls to 
+6e177de8ac3e8da90e748e89466893cf mov edi, edx
+36f156bbcd6014e90a8d019d55d18ef7 mov eax, r8d
+a362bd3ec3fc3bd642d53573f6c99e85 syscall 
+

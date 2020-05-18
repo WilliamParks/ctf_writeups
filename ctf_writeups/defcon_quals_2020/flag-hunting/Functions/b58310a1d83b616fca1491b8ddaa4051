@@ -1,0 +1,28 @@
+Start addr b58310a1d83b616fca1491b8ddaa4051
+Called by set(['d670e25f0b1e4b298321e687f777ec14'])
+Calls to set([])
+
+Addr b58310a1d83b616fca1491b8ddaa4051
+Calls to 
+b58310a1d83b616fca1491b8ddaa4051 push rbp
+87b75b904e6bdfc4a720c5b994b9da16 mov rbp, rsp
+090b435d0108a63ff97074935d78154b sub rsp, 0x20
+0e7bf3ea0269349889bad5105f3d4702 mov DWORD PTR [rbp-0x14], edi
+51258382a4cf1973ceaba89b7cd6cce9 mov edi, 0x20
+1b6cf1b9aa2b8b5de46e055995b61a36 call malloc
+e48bb2b249e29029dcfedd87f37ef96e mov QWORD PTR [rbp-0x8], rax
+04c9b7c627c5720ffaac396ff2ebe75b mov rax, QWORD PTR [rbp-0x8]
+6624ee53c02de99b3544b4d862bc5450 mov edx, DWORD PTR [rbp-0x14]
+1a659c221aae07f59745a7569cbff667 mov DWORD PTR [rax], edx
+c472bda6b7d69acc2c79cd7c8c131c84 mov rax, QWORD PTR [rbp-0x8]
+2bace30c1836c5ffa9810b093f57c4e1 mov QWORD PTR [rax+0x10], 0x0
+4aa68f6d2cc17489f850b13b8a664b14 mov rax, QWORD PTR [rbp-0x8]
+0ebbaef4775e907ce76db5ef8f7eb01f mov QWORD PTR [rax+0x18], 0x0
+67137b52239902c417d1604dbfe00af2 mov rax, QWORD PTR [rbp-0x8]
+3e6d2b87d522414ee84abb63c7df80d5 mov DWORD PTR [rax+0x8], 0x1
+a58ea2aa6dd28a2d8572b6642c469cbd mov rax, QWORD PTR [rbp-0x8]
+5f410c6e5753042095803f8bb1b35b7a mov DWORD PTR [rax+0x4], 0x1
+b1a36760bf05b012e34b9c9b235fe735 mov rax, QWORD PTR [rbp-0x8]
+99bb330fd545789186eb4238d7c1f431 leave 
+3d2780ae16ad8e2b889d4e6bd96e184a ret 
+

@@ -1,0 +1,38 @@
+Start addr 05ac00e1e7aae89912d1ee1d234e3f19
+Called by set(['05ac00e1e7aae89912d1ee1d234e3f19', 'bb9cc4afceb13f7385ca1ada5a386eb2'])
+Calls to set(['05ac00e1e7aae89912d1ee1d234e3f19'])
+
+Addr 05ac00e1e7aae89912d1ee1d234e3f19
+Calls to  b293bbfa9e7fe427413f71aac870b8ee * 2,  ced519c77437f8e24e3f12bf774eb715 * 1,  b293bbfa9e7fe427413f71aac870b8ee * 2,  ced519c77437f8e24e3f12bf774eb715 * 1,  b293bbfa9e7fe427413f71aac870b8ee * 3,  ced519c77437f8e24e3f12bf774eb715 * 4,  b293bbfa9e7fe427413f71aac870b8ee * 3,  ced519c77437f8e24e3f12bf774eb715 * 2,  b293bbfa9e7fe427413f71aac870b8ee * 2,  ced519c77437f8e24e3f12bf774eb715 * 3,  b293bbfa9e7fe427413f71aac870b8ee * 3,  ced519c77437f8e24e3f12bf774eb715 * 2,  b293bbfa9e7fe427413f71aac870b8ee * 2,  ced519c77437f8e24e3f12bf774eb715 * 2,  b293bbfa9e7fe427413f71aac870b8ee * 2,  ced519c77437f8e24e3f12bf774eb715 * 1,  b293bbfa9e7fe427413f71aac870b8ee * 3,  ced519c77437f8e24e3f12bf774eb715 * 5, 
+05ac00e1e7aae89912d1ee1d234e3f19 push rbp
+9f8de79521c2e0c2b0085d05ffe9ad55 mov rbp, rsp
+bd996b77d3ecb590154add2bfe64c47a sub rsp, 0x10
+23b5bd7e28e4b5d4da8cd527e55d97cb mov QWORD PTR [rbp-0x8], rdi
+302516a6643756848a3cf572de673677 cmp QWORD PTR [rbp-0x8], 0x0
+4ff1957ea326e9abf602e5f95d7578eb je 0x555555554a76
+
+Addr b293bbfa9e7fe427413f71aac870b8ee
+Calls to 
+b293bbfa9e7fe427413f71aac870b8ee nop 
+552d284fd8d27e8742bf5a54b87d67e4 leave 
+274243eff91f1275757e3800f7abb2ac ret 
+
+Addr ced519c77437f8e24e3f12bf774eb715
+Calls to  b293bbfa9e7fe427413f71aac870b8ee * 21, 
+ced519c77437f8e24e3f12bf774eb715 mov rax, QWORD PTR [rbp-0x8]
+7c25962fe73beedb8a90e9445e47462c mov rax, QWORD PTR [rax+0x10]
+a0943968669a8d513ef705bfe87ca659 mov rdi, rax
+ebcf7cfb18427cdaefeb4910529d9109 call 0x555555554a23 - at 05ac00e1e7aae89912d1ee1d234e3f19
+deaec112693879951c4613dc4822327d mov rax, QWORD PTR [rbp-0x8]
+214fe21f75f612ad505235a4a53edf2d mov edx, DWORD PTR [rax+0x4]
+721a45d87d9ed2e60ddc86906f6381b2 mov rax, QWORD PTR [rbp-0x8]
+5088162338d1519fbdc8c82b6400ee1e mov eax, DWORD PTR [rax]
+7c316d605944cb604e3cf284e79a1a96 mov esi, eax
+9d5e0f6037faff73b288954112264c1a lea rdi, [rip+0x3a8]
+5d223468b835167550e8796c7201a084 mov eax, 0x0
+d602d999217174740a7a6dc364b7da0f call printf
+7c92fdc8eb62f34dcbfae4ff1270a490 mov rax, QWORD PTR [rbp-0x8]
+4b073926e7ff740a9735e851d5ce8063 mov rax, QWORD PTR [rax+0x18]
+b79bcdce6053c43a371fe60701dc5b90 mov rdi, rax
+57bba1b1098009893c80ef412fc4e8d6 call 0x555555554a23 - at 05ac00e1e7aae89912d1ee1d234e3f19
+
